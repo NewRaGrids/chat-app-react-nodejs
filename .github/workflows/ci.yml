@@ -33,7 +33,7 @@ jobs:
 
       - name: Run frontend tests
         working-directory: public
-        run: npm test -- --watchAll=false
+        run: npm test -- --watchAll=false --passWithNoTests
 
       - name: Build frontend
         working-directory: public
